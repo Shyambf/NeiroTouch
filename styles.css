@@ -102,4 +102,142 @@ body {
   .tab.active {
     background-color: #255a65;
   }
+
+  .overview {
+    padding: 20px 15px;
+    background-color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .overview h2 {
+    color: #337180;
+    font-size: 18px;
+    border-left: 4px solid #337180;
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .overview h3 {
+    font-size: 16px;
+    margin: 20px 0 10px;
+  }
+  
+  .full-width-image {
+    width: 100%;
+    border-radius: 10px;
+    margin: 15px 0;
+  }
+  
+  .exercise {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin: 20px 0;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  }
+  
+  .exercise-header {
+    padding: 5px 10px;
+    border-radius: 8px 8px 0 0;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+  }
+  
+  .exercise img {
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    margin: 10px 0;
+  }
+  
+  .exercise-title {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    font-size: 14px;
+  }
+  
+  .pink { background-color: #f8cfd1; color: #a4001d; }
+  .blue { background-color: #cfe8f8; color: #005b8a; }
+  .yellow { background-color: #f9f4c8; color: #7a6300; }
+  .green { background-color: #d0f2d3; color: #2e7d32; }
+
+  .equipment, .documents {
+    background-color: #fff;
+    border: 1px solid #b6e0e5;
+    border-radius: 12px;
+    padding: 15px;
+    margin: 20px 15px;
+  }
+  
+  .equipment h3, .documents h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .equipment ul, .documents ul {
+    list-style: none;
+    padding-left: 15px;
+  }
+  
+  .equipment li {
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+  .equipment li::before {
+    content: '•';
+    position: absolute;
+    left: -10px;
+    color: #3a7d8f;
+  }
+  
+  .documents li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .documents img {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  
+  .documents span {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+  
+  .footer {
+    background-color: #3a7d8f;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 30px;
+  }
+  
+  .footer .logo {
+    font-weight: bold;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .footer-links a {
+    color: white;
+    margin-left: 15px;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  
   
