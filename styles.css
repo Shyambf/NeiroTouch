@@ -89,6 +89,7 @@ body {
   }
   
   .description p {
+    margin-left: 15px;
     font-size: 14px;
     margin-bottom: 10px;
     line-height: 1.5;
@@ -132,10 +133,14 @@ body {
   }
 
   .overview {
-    padding: 20px 15px;
     background-color: #fff;
+    border: 2px solid #5995A1;
+    border-radius: 12px;
+    padding: 20px 15px;
     font-size: 14px;
     line-height: 1.5;
+    margin-top: 10px;
+    margin: 20px 15px;
   }
   
   .overview h2 {
@@ -158,7 +163,6 @@ body {
   }
   
   .exercise {
-    background-color: #f5f5f5;
     border-radius: 10px;
     margin: 20px 0;
     padding: 10px;
@@ -183,6 +187,7 @@ body {
     font-weight: bold;
     margin: 10px 0 5px;
     font-size: 14px;
+    color: #487C86;
   }
   
   .pink { background-color: #f8cfd1; color: #a4001d; }
@@ -192,8 +197,8 @@ body {
 
   .equipment, .documents {
     background-color: #fff;
-    border: 1px solid #b6e0e5;
-    border-radius: 12px;
+    border: 2px solid #5995A1;
+    border-radius: 20px;
     padding: 15px;
     margin: 20px 15px;
   }
