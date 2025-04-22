@@ -40,10 +40,10 @@ body {
     flex-shrink: 0;
   }
   .phone-icon img {
-    width: 40px;       /* уменьшает размер */
-    height: 40px;      /* делает квадрат, чтобы круг работал */
-    border-radius: 50%; /* делает изображение круглым */
-    object-fit: cover;  /* подгоняет изображение, не искажая */
+    width: 40px;       
+    height: 40px;  
+    border-radius: 50%; 
+    object-fit: cover; 
   }
   
   .nav {
